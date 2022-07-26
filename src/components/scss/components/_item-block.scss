@@ -1,0 +1,31 @@
+.item-block {
+    width: 400px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding-bottom: 20px;
+    & > img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    &:not(:first-child) {
+        margin: 0 15px;
+    }
+    &:first-child {
+        margin-right: 15px;
+    }
+}
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 10px;
+    &__title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    &__subtitle {
+        color: #737b7d;
+    }
+    &__price {
+        font-weight: 700;
+    }
+}

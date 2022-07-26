@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Collection from "./components/collection/Collection";
+import Header from "./components/header/Header";
+import "./components/scss/app.scss";
+import TrendsBlock from "./components/trendsBlock/TrendsBlock";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <section className="collection">
+                <Collection />
+            </section>
+            <section className="trends-block">
+                <TrendsBlock />
+            </section>
+        </div>
+    );
 }
 
 export default App;

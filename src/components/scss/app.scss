@@ -1,0 +1,33 @@
+@import "./components/header.scss";
+@import "./base/normallize.scss";
+@import "./components/collection.scss";
+@import "./components/item-block.scss";
+
+.container {
+    max-width: 1530px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.trends-block {
+    padding: 40px 0;
+    &__title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
+.items-block {
+    column-gap: 20px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    &::-webkit-scrollbar {
+        // сделать стилизированный скролл
+        margin-top: 20px;
+        height: 5px;
+        background-color: #000;
+    }
+}
+
+@import "./base/media.scss";

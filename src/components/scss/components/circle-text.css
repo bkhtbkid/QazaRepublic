@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,regular,700);
+
+body {
+    padding: 30px;
+}
+
+.block {
+    width: 250px;
+    height: 250px;
+    display: block;
+    position: relative;
+    margin-top: 40px;
+    background-color: #333;
+    border-radius: 50%;
+}
+.block > span[class^="w"]:nth-of-type(n + 1) {
+    display: block;
+    position: absolute;
+    transform-origin: 50% 100%;
+}
+.block span {
+    font-family: "Roboto";
+    font-size: 38px;
+    font-weight: regular;
+    font-style: normal;
+    line-height: 0.65;
+    white-space: pre;
+    overflow: visible;
+    padding: 0px;
+    width: 21px;
+    height: 24px;
+}
+
+.w0 {
+    left: -20px;
+    top: 50%;
+}
+.w1 {
+    transform: rotate(-1.5rad);
+    left: -13px;
+    top: 93.95px;
+}
+.w2 {
+    transform: rotate(-1.25rad);
+    left: -5px;
+    top: 62.95px;
+}
+.w3 {
+    transform: rotate(-1.05rad);
+    left: 8px;
+    top: 35.95px;
+}
+.w4 {
+    transform: rotate(-0.8rad);
+    left: 25px;
+    top: 13.95px;
+}
+.w5 {
+    transform: rotate(-0.6rad);
+    left: 47px;
+    top: -5.05px;
+}
+.w6 {
+    transform: rotate(-1.14rad);
+    left: 42.7px;
+    top: 93.95px;
+}
+.w7 {
+    transform: rotate(-0.3rad);
+    right: 146.7px;
+    top: -3.05px;
+}
+.w8 {
+    transform: rotate(-0.04rad);
+    right: 174.7px;
+    top: -7.05px;
+}
+.w9 {
+    transform: rotate(0.14rad);
+    right: 201.7px;
+    top: -6.05px;
+}
+.w10 {
+    transform: rotate(0.64rad);
+    right: 220.7px;
+    top: -0.05px;
+}
+.w11 {
+    transform: rotate(0.8rad);
+    right: 257.7px;
+    top: 25.95px;
+}
+.w12 {
+    transform: rotate(1rad);
+    right: 278.7px;
+    top: 46.95px;
+}
+.w13 {
+    transform: rotate(1.3rad);
+    right: -6px;
+    top: 68.95px;
+}
+.w14 {
+    transform: rotate(1.4rad);
+    right: -10px;
+    top: 82.95px;
+}
+.w15 {
+    transform: rotate(-1.14rad);
+    left: 42.7px;
+    top: 93.95px;
+}
+.w16 {
+    right: -32px;
+    top: 46%;
+}
+.w17 {
+    transform: rotate(-1.14rad);
+    left: 324.7px;
+    top: 143.95px;
+}
+.w18 {
+    transform: rotate(-1.14rad);
+    left: 324.7px;
+    top: 143.95px;
+}
+.w19 {
+    transform: rotate(-1.14rad);
+    left: 324.7px;
+    top: 143.95px;
+}
+.w20 {
+    transform: rotate(-1.14rad);
+    left: 324.7px;
+    top: 143.95px;
+}
+.w21 {
+    transform: rotate(-1.14rad);
+    left: 324.7px;
+    top: 143.95px;
+}
+.w22 {
+    transform: rotate(-1.14rad);
+    left: 324.7px;
+    top: 143.95px;
+}
+.w23 {
+    transform: rotate(-1.14rad);
+    left: 324.7px;
+    top: 143.95px;
+}
+.w24 {
+    transform: rotate(-1.14rad);
+    left: 324.7px;
+    top: 143.95px;
+}
+.w25 {
+    transform: rotate(-1.14rad);
+    left: 324.7px;
+    top: 143.95px;
+}
+.w26 {
+    transform: rotate(-1.14rad);
+    left: 324.7px;
+    top: 143.95px;
+}
