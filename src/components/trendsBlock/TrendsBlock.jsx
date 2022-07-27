@@ -17,7 +17,7 @@ const TrendsBlock = () => {
     //         });
     // }, []);
     return (
-        <div className="container">
+        <>
             <h2 className="trends-block__title">Сейчас в тренде</h2>
             <div className="trends-block__items items-block">
                 <ItemBlock />
@@ -25,8 +25,13 @@ const TrendsBlock = () => {
                 <ItemBlock />
                 <ItemBlock />
                 <ItemBlock />
+                <ItemBlock />
+                <ItemBlock />
+                <ItemBlock />
+                <ItemBlock />
+                <ItemBlock />
             </div>
-        </div>
+        </>
     );
 };
 

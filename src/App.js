@@ -1,3 +1,5 @@
+import Boxes from "./components/boxes/Boxes";
+import Categories from "./components/categories/Categories";
 import Collection from "./components/collection/Collection";
 import Header from "./components/header/Header";
 import "./components/scss/app.scss";
@@ -10,9 +12,17 @@ function App() {
             <section className="collection">
                 <Collection />
             </section>
-            <section className="trends-block">
-                <TrendsBlock />
-            </section>
+            <div className="container">
+                <section className="trends-block">
+                    <TrendsBlock />
+                </section>
+                <section className="categories">
+                    <Categories />
+                </section>
+                <section className="boxes">
+                    <Boxes />
+                </section>
+            </div>
         </div>
     );
 }

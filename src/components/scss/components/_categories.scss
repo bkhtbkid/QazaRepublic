@@ -1,0 +1,23 @@
+.categories {
+    padding: 30px 0;
+    &__title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.item-categories {
+    flex: 0 1 33.333%;
+    text-align: center;
+    padding: 0 10px;
+    & > img {
+        max-width: 400px;
+        width: 100%;
+    }
+    &__link {
+        font-weight: 700;
+    }
+}

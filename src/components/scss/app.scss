@@ -2,6 +2,8 @@
 @import "./base/normallize.scss";
 @import "./components/collection.scss";
 @import "./components/item-block.scss";
+@import "./components/categories.scss";
+@import "./components/boxes.scss";
 
 .container {
     max-width: 1530px;
@@ -22,11 +24,15 @@
     column-gap: 20px;
     overflow-x: scroll;
     white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: #737b7d transparent;
     &::-webkit-scrollbar {
-        // сделать стилизированный скролл
-        margin-top: 20px;
         height: 5px;
-        background-color: #000;
+        &-thumb {
+            border-radius: 10px;
+            border: 5px solid #737b7d;
+            width: 200px;
+        }
     }
 }
 
