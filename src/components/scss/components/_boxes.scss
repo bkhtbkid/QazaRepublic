@@ -1,2 +1,24 @@
 .boxes {
+    margin-bottom: 30px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+    &__link {
+        & > img {
+            max-width: 400px;
+            width: 100%;
+        }
+    }
+}
+.info-boxes {
+    margin-bottom: 30px;
+    &__title {
+        font-size: 24px;
+    }
+    &__subtitle {
+        font-size: 16px;
+        color: #737b7d;
+    }
 }

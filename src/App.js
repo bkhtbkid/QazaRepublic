@@ -1,9 +1,10 @@
+import "./components/scss/app.scss";
 import Boxes from "./components/boxes/Boxes";
 import Categories from "./components/categories/Categories";
 import Collection from "./components/collection/Collection";
 import Header from "./components/header/Header";
-import "./components/scss/app.scss";
 import TrendsBlock from "./components/trendsBlock/TrendsBlock";
+import Footer from "./components/footer/Footer";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                     <Boxes />
                 </section>
             </div>
+            <Footer />
         </div>
     );
 }

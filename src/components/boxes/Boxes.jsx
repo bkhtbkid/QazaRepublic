@@ -10,9 +10,11 @@ function Boxes() {
                     Собери подарок для любимых!
                 </h5>
             </div>
-            <Box />
-            <Box />
-            <Box />
+            <div className="boxes__wrapper">
+                <Box />
+                <Box />
+                <Box />
+            </div>
         </>
     );
 }

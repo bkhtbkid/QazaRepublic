@@ -116,6 +116,20 @@
             max-width: 700px;
         }
     }
+    .boxes {
+        width: 100%;
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            float: left;
+            row-gap: 30px;
+        }
+        &__link {
+            & > img {
+                width: 100%;
+            }
+        }
+    }
 }
 @media (max-width: 792px) {
     .menu {
@@ -160,6 +174,9 @@
             }
         }
     }
+    .trends-block__title {
+        text-align: center;
+    }
     .buttonIcon {
         right: 16px !important;
         top: 6px !important;
@@ -167,6 +184,16 @@
     .categories__title {
         font-size: 16px;
         text-align: center;
+    }
+    .info-boxes {
+        text-align: center;
+        margin-bottom: 20px;
+        &__title {
+            font-size: 16px;
+        }
+        &__subtitle {
+            font-size: 12px;
+        }
     }
 }
 
