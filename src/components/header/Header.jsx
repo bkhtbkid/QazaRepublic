@@ -15,9 +15,9 @@ function Header() {
         <header className="header">
             <div className="container">
                 <div className="header__wrapper">
-                    <a href="#" className="header__logo">
+                    <Link to={"/"} className="header__logo">
                         <img src={mainLogo} alt="Logo" />
-                    </a>
+                    </Link>
                     <Menu toggle={toggle} menuBody={menuBody} />
                     <div className="menu-header__block">
                         <div className="menu-header__help">Помощь</div>
@@ -35,7 +35,7 @@ function Header() {
                                 className="menu__search"
                                 placeholder="Поиск"
                             />
-                            <a href="#">
+                            <Link to={"/cart"}>
                                 <img
                                     src={cartSvg}
                                     alt=""
@@ -44,7 +44,7 @@ function Header() {
                                         height: "20px",
                                     }}
                                 />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

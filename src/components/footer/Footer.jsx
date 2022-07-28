@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import footerLogo from "../../assets/logo/logo.png";
 
 function Footer() {
@@ -8,9 +9,9 @@ function Footer() {
                 <div className="footer__wrapper">
                     <div className="footer__item item-footer">
                         <div className="item-footer__logo">
-                            <a href="">
+                            <Link to={"/"}>
                                 <img src={footerLogo} alt="" />
-                            </a>
+                            </Link>
                         </div>
                         <div className="item-footer__media footer-media">
                             <a href="" className="footer-media__facebook">
@@ -56,24 +57,44 @@ function Footer() {
                     <div className="footer__items">
                         <ul className="footer__list list-footer">
                             <li className="list-footer__item">
-                                <a href="" className="list-footer__link">
+                                <Link
+                                    to={"/latest"}
+                                    className="list-footer__link"
+                                >
+                                    Новинки
+                                </Link>
+                            </li>
+                            <li className="list-footer__item">
+                                <Link
+                                    to={"/male"}
+                                    className="list-footer__link"
+                                >
                                     Мужчины
-                                </a>
+                                </Link>
                             </li>
                             <li className="list-footer__item">
-                                <a href="" className="list-footer__link">
+                                <Link
+                                    to={"/female"}
+                                    className="list-footer__link"
+                                >
                                     Женщины
-                                </a>
+                                </Link>
                             </li>
                             <li className="list-footer__item">
-                                <a href="" className="list-footer__link">
+                                <Link
+                                    to={"/kids"}
+                                    className="list-footer__link"
+                                >
                                     Дети
-                                </a>
+                                </Link>
                             </li>
                             <li className="list-footer__item">
-                                <a href="" className="list-footer__link">
+                                <Link
+                                    to={"/accessories"}
+                                    className="list-footer__link"
+                                >
                                     Аксессуары
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>

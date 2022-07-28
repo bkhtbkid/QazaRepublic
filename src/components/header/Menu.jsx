@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Menu(props) {
     return (
@@ -24,39 +25,39 @@ function Menu(props) {
             >
                 <ul className="menu__list">
                     <li className="menu__item">
-                        <a href="" className="menu__link">
+                        <Link to={"/latest"} className="menu__link">
                             Новинки
-                        </a>
+                        </Link>
                     </li>
                     <li className="menu__item">
-                        <a href="" className="menu__link">
+                        <Link to={"/male"} className="menu__link">
                             Мужчины
-                        </a>
+                        </Link>
                     </li>
                     <li className="menu__item">
-                        <a href="" className="menu__link">
+                        <Link to={"/female"} className="menu__link">
                             Женщины
-                        </a>
+                        </Link>
                     </li>
                     <li className="menu__item">
-                        <a href="" className="menu__link">
+                        <Link to={"/kids"} className="menu__link">
                             Дети
-                        </a>
+                        </Link>
                     </li>
                     <li className="menu__item">
-                        <a href="" className="menu__link">
+                        <Link to={"/souvenirs"} className="menu__link">
                             Сувениры
-                        </a>
+                        </Link>
                     </li>
                     <li className="menu__item">
-                        <a href="" className="menu__link">
+                        <Link to={"/accessories"} className="menu__link">
                             Аксессуары
-                        </a>
+                        </Link>
                     </li>
                     <li className="menu__item">
-                        <a href="" className="menu__link">
-                            Коллекция
-                        </a>
+                        <Link to={"/collections"} className="menu__link">
+                            Коллекции
+                        </Link>
                     </li>
                 </ul>
             </nav>
