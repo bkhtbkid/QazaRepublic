@@ -12,8 +12,8 @@ function Boxes() {
             </div>
             <div className="boxes__wrapper">
                 <Box />
-                <Box />
-                <Box />
+                {/* <Box />
+                <Box /> */}
             </div>
         </>
     );

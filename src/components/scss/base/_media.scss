@@ -24,7 +24,7 @@
             }
         }
         &__list {
-            display: block;
+            display: block !important;
             text-align: center;
         }
         &__link {
@@ -36,20 +36,20 @@
             justify-content: center;
         }
         &__item {
-            margin-bottom: 15px;
+            margin-bottom: 15px !important;
         }
         &__icon {
             display: block !important;
         }
         &-header {
-            order: 2;
+            order: 2 !important;
             display: flex;
             flex-direction: column;
             align-items: end;
             &__block {
                 order: 1;
-                flex: 0 1 auto;
-                margin-top: 0;
+                // flex: 0 1 auto;
+                margin-top: 0 !important;
             }
             &__item {
                 display: flex;
@@ -123,6 +123,7 @@
             justify-content: center;
             float: left;
             row-gap: 30px;
+            margin-bottom: 40px;
         }
         &__link {
             & > img {
@@ -203,8 +204,8 @@
     }
     .menu {
         &__search {
-            width: 150px;
-            margin: 0 10px 0 0;
+            width: 150px !important;
+            margin: 0 10px 0 0 !important;
         }
     }
 }

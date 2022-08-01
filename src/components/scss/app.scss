@@ -22,6 +22,7 @@
     }
 }
 .items-block {
+    display: flex;
     column-gap: 20px;
     overflow-x: scroll;
     white-space: nowrap;

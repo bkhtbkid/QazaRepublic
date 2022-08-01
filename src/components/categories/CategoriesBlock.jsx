@@ -1,18 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import items from "../../data.json";
 
 function CategoriesBlock() {
+    const gender = ["/male", "/female", "/kids"]; // Доделать здесь
+
     return (
-        <div className="categories__item item-categories">
-            <img
-                src="https://avatars.mds.yandex.net/i?id=ce1d5b3333c76cc4fa340badf0f7e95a_l-5313292-images-thumbs&n=13"
-                alt="img"
-            />
-            <div className="">
-                <a href="" className="item-categories__link">
-                    Мужчины
-                </a>
-            </div>
-        </div>
+        <>
+            {items.map((value, index) => {
+                return (
+                    value.gender !== "" && (
+                        <div
+                            className="categories__item item-categories"
+                            key={index}
+                        >
+                            <img src={value.imageUrl} alt="img" />
+                            <div className="">
+                                <Link
+                                    to={"/male"}
+                                    className="item-categories__link"
+                                >
+                                    {value.gender}
+                                </Link>
+                            </div>
+                        </div>
+                    )
+                );
+            })}
+        </>
     );
 }
 

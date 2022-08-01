@@ -1,13 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import items from "../../data.json";
 
 function Box() {
     return (
-        <a href="" className="boxes__link">
-            <img
-                src="https://avatars.mds.yandex.net/i?id=ce1d5b3333c76cc4fa340badf0f7e95a_l-5313292-images-thumbs&n=13"
-                alt="img"
-            />
-        </a>
+        <>
+            {items.map((value, index) => {
+                return (
+                    value.box === true && (
+                        <Link to={""} className="boxes__link" key={index}>
+                            {" "}
+                            {/* Сделать линки */}
+                            <img src={value.imageUrl} alt="img" />
+                        </Link>
+                    )
+                );
+            })}
+        </>
     );
 }
 

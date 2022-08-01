@@ -7,8 +7,8 @@ function Categories() {
             <h3 className="categories__title">Для кого выбираете?</h3>
             <div className="categories__wrapper">
                 <CategoriesBlock />
-                <CategoriesBlock />
-                <CategoriesBlock />
+                {/* <CategoriesBlock />
+                <CategoriesBlock /> */}
             </div>
         </>
     );

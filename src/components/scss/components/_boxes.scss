@@ -1,8 +1,8 @@
 .boxes {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     &__wrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         column-gap: 30px;
     }
     &__link {
