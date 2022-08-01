@@ -69,7 +69,7 @@
         justify-content: space-between;
     }
     &__item {
-        margin: 0px 10px 0px;
+        margin: 0px 5px 0px;
     }
     &-header {
         &__block {
@@ -92,7 +92,7 @@
     &__search {
         margin-right: 20px;
         padding: 5px 10px 5px 22px;
-        width: 250px;
+        width: 200px;
         border-radius: 10px;
         outline: none;
         border: 1px solid #000;
@@ -107,6 +107,16 @@
             left: 4px;
             width: 18px;
             height: 18px;
+        }
+    }
+    &__link {
+        padding: 5px 5px;
+        transition: all 0.3s;
+        border-radius: 10px;
+        &:hover {
+            // opacity: 0.5;
+            background-color: #444;
+            color: #fff;
         }
     }
 }
