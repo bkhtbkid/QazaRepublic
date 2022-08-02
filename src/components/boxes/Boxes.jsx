@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "./Box";
 
-function Boxes() {
+function Boxes(params) {
     return (
         <>
             <div className="boxes__info info-boxes">
@@ -11,9 +11,7 @@ function Boxes() {
                 </h5>
             </div>
             <div className="boxes__wrapper">
-                <Box />
-                {/* <Box />
-                <Box /> */}
+                <Box items={params} />
             </div>
         </>
     );

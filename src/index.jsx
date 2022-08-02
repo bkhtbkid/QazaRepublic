@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -7,7 +6,6 @@ import Male from "./pages/gender/Male";
 import Female from "./pages/gender/Female";
 import Kids from "./pages/gender/Kids";
 import Souvenirs from "./pages/souvenirs/Souvenirs";
-import Collections from "./pages/collections/Collections";
 import Accessories from "./pages/accessories/Accessories";
 import Cart from "./pages/cart/Cart";
 
@@ -22,7 +20,6 @@ root.render(
             <Route path="/kids" element={<Kids />} />
             <Route path="/souvenirs" element={<Souvenirs />} />
             <Route path="/accessories" element={<Accessories />} />
-            <Route path="/collections" element={<Collections />} />
             <Route path="/cart" element={<Cart />} />
         </Routes>
     </BrowserRouter>

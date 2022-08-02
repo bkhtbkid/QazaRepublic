@@ -110,28 +110,12 @@
         }
     }
     &__link {
-        padding: 5px 5px;
+        padding: 5px 10px;
         transition: all 0.3s;
         border-radius: 10px;
         &:hover {
-            // opacity: 0.5;
             background-color: #444;
             color: #fff;
         }
     }
 }
-
-.arrow-down {
-    position: relative;
-    &::after {
-        content: "";
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top: 3px;
-        right: -20px;
-        background: url(../../../assets/icons/arrow-down.svg);
-    }
-}
-
-// @import "../base/media.scss";

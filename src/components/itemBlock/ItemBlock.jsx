@@ -1,22 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import items from "../../data.json";
+function ItemBlock(params) {
+    const items = params.items.items;
 
-function ItemBlock({
-    id,
-    imageUrl,
-    title,
-    item,
-    types,
-    sizes,
-    price,
-    category,
-    description,
-    color,
-    sale,
-    gender,
-}) {
     return (
         <>
             {items.map((value, index) => {

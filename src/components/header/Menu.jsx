@@ -9,7 +9,6 @@ function Menu(props) {
         "Дети",
         "Сувениры",
         "Акссесуары",
-        "Коллекции",
     ];
 
     const links = [
@@ -19,7 +18,6 @@ function Menu(props) {
         "/kids",
         "/souvenirs",
         "/accessories",
-        "/collections",
     ];
 
     return (
@@ -48,7 +46,6 @@ function Menu(props) {
                         return (
                             <li className="menu__item" key={index}>
                                 <Link to={links[index]} className="menu__link">
-                                    <span></span>
                                     {elem}
                                 </Link>
                             </li>

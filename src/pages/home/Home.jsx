@@ -5,8 +5,25 @@ import Collection from "../../components/collection/Collection";
 import Header from "../../components/header/Header";
 import TrendsBlock from "../../components/trendsBlock/TrendsBlock";
 import Footer from "../../components/footer/Footer";
+import { useEffect } from "react";
+import axios from "axios";
+import { useState } from "react";
 
 function Home() {
+    const [items, setItems] = useState([]);
+    // const [isLoading, setIsLoading] = useState(false);
+
+    // Сделать получение данных с сервера
+
+    useEffect(() => {
+        axios
+            .get("https://62d40ad6cd960e45d4522b59.mockapi.io/QazaqRepublic")
+            .then((response) => {
+                setItems(response.data);
+                // setIsLoading(true);
+            });
+    }, []);
+
     return (
         <div className="App">
             <Header />
@@ -15,13 +32,13 @@ function Home() {
             </section>
             <div className="container">
                 <section className="trends-block">
-                    <TrendsBlock />
+                    <TrendsBlock items={items} />
                 </section>
                 <section className="categories">
-                    <Categories />
+                    <Categories items={items} />
                 </section>
                 <section className="boxes">
-                    <Boxes />
+                    <Boxes items={items} />
                 </section>
             </div>
             <Footer />

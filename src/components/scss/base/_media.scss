@@ -208,4 +208,12 @@
             margin: 0 10px 0 0 !important;
         }
     }
+    // Доделать адаптив страницы latest
+    .item-list {
+        display: block;
+        text-align: center;
+        &__wrapper {
+            display: block;
+        }
+    }
 }

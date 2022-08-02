@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import items from "../../data.json";
 
-function CategoriesBlock() {
+function CategoriesBlock(params) {
     const gender = ["/male", "/female", "/kids"]; // Доделать здесь
+    const items = params.items.items;
 
     return (
         <>
             {items.map((value, index) => {
                 return (
-                    value.gender !== "" && (
+                    value.collection && (
                         <div
                             className="categories__item item-categories"
                             key={index}
@@ -20,7 +20,7 @@ function CategoriesBlock() {
                                     to={"/male"}
                                     className="item-categories__link"
                                 >
-                                    {value.gender}
+                                    {value.collection}
                                 </Link>
                             </div>
                         </div>

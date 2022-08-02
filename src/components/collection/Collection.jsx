@@ -8,7 +8,7 @@ function Collection() {
                     <h2 className="item-collection__title">
                         Получи <span>новую коллекцию</span> этого сезона
                     </h2>
-                    <button className="item-collection__button">
+                    <button className="item-collection__button button">
                         Купить коллекцию
                         <svg
                             version="1.1"
