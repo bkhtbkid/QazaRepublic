@@ -10,7 +10,7 @@ function Latest() {
             <Header />
             <section className="latest">
                 <div className="container">
-                    <h1 className="latest__title">Новинки</h1>
+                    <h1 className="latest__title pages-title">Новинки</h1>
                     <ul className="latest__list list-latest">
                         {items !== undefined
                             ? items.map((obj, index) => {
@@ -23,7 +23,7 @@ function Latest() {
                                               <img
                                                   src={obj.imageUrl}
                                                   alt=""
-                                                  className="item-list__image"
+                                                  className="item-list__image item-image"
                                               />
                                               <div className="item-list__wrapper">
                                                   <h3 className="item-list__title">

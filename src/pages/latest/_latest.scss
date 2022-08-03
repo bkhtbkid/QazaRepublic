@@ -1,19 +1,12 @@
-.latest {
+.pages-title {
+    font-size: 30px;
     margin-bottom: 30px;
-    &__title {
-        font-size: 30px;
-        margin-bottom: 30px;
-    }
 }
-.list-latest {
-    & > *:not(:last-child) {
-        margin-bottom: 30px;
-    }
-}
+
 .item-list {
     max-width: 800px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     height: 200px;
     display: flex;
     justify-content: space-between;

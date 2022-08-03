@@ -3,25 +3,21 @@ import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import action from "../../redux/Action";
 
-function Accessories() {
+function Boxes() {
     const items = action().data;
-
     return (
         <>
             <Header />
-            <section className="accessories">
+            <section className="boxes">
                 <div className="container">
-                    <h1 className="accessories__title pages-title">Boxes</h1>
-                    <ul className="accessories__list list-accessories">
+                    <h1 className="boxes__title pages-title">Boxes</h1>
+                    <ul className="boxes__list list-boxes">
                         {items !== undefined
                             ? items.map((obj, index) => {
-                                  const box = obj.category.filter(
-                                      (item) => item === "accessories"
-                                  );
                                   return (
-                                      box.length > 0 && (
+                                      obj.box && (
                                           <li
-                                              className="list-accessories__item item-list"
+                                              className="list-boxes__item item-list"
                                               key={index}
                                           >
                                               <img
@@ -76,4 +72,4 @@ function Accessories() {
     );
 }
 
-export default Accessories;
+export default Boxes;

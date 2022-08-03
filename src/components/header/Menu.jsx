@@ -7,7 +7,7 @@ function Menu(props) {
         "Мужчины",
         "Женщины",
         "Дети",
-        "Сувениры",
+        "Boxes",
         "Акссесуары",
     ];
 
@@ -16,7 +16,7 @@ function Menu(props) {
         "/male",
         "/female",
         "/kids",
-        "/souvenirs",
+        "/boxes",
         "/accessories",
     ];
 
