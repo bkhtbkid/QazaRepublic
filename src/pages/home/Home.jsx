@@ -11,7 +11,7 @@ import { useState } from "react";
 
 function Home() {
     const [items, setItems] = useState([]);
-    // const [isLoading, setIsLoading] = useState(false);
+    // const [isLoading, setIsLoading] = useState(true);
 
     // Сделать получение данных с сервера
 
@@ -20,7 +20,7 @@ function Home() {
             .get("https://62d40ad6cd960e45d4522b59.mockapi.io/QazaqRepublic")
             .then((response) => {
                 setItems(response.data);
-                // setIsLoading(true);
+                // setIsLoading(false);
             });
     }, []);
 
