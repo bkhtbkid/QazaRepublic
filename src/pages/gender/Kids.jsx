@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
 import action from "../../redux/Action";
 import PagesSkeleton from "../../components/skeleton/PagesSkeleton";
 
@@ -9,7 +7,6 @@ function Kids() {
 
     return (
         <>
-            <Header />
             <section className="kids">
                 <div className="container">
                     <h1 className="kids__title pages-title">Дети</h1>
@@ -74,7 +71,6 @@ function Kids() {
                     </ul>
                 </div>
             </section>
-            <Footer />
         </>
     );
 }

@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
 import PagesSkeleton from "../../components/skeleton/PagesSkeleton";
 import action from "../../redux/Action";
 
@@ -8,7 +6,6 @@ function Latest() {
     const items = action().data;
     return (
         <>
-            <Header />
             <section className="latest">
                 <div className="container">
                     <h1 className="latest__title pages-title">Новинки</h1>
@@ -70,7 +67,6 @@ function Latest() {
                     </ul>
                 </div>
             </section>
-            <Footer />
         </>
     );
 }

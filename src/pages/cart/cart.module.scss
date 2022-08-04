@@ -1,0 +1,12 @@
+.topCart,
+.cartBot {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto 30px;
+    align-items: center;
+    &__title {
+        display: flex;
+    }
+}

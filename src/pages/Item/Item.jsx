@@ -5,6 +5,7 @@ function Item() {
     const items = action().data;
 
     return (
+        // Сделать отдельную страницу для каждого элемента
         <section className="item">
             <div className="container">
                 <div className="item-top__wrapper">

@@ -14,6 +14,7 @@ const Action = () => {
                 setItems(response);
                 setIsLoading(false);
             });
+        window.scrollTo(0, 0);
     }, []);
     return items;
 };

@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
 import action from "../../redux/Action";
 import PagesSkeleton from "../../components/skeleton/PagesSkeleton";
 
@@ -9,7 +7,6 @@ function Female() {
 
     return (
         <>
-            <Header />
             <section className="female">
                 <div className="container">
                     <h1 className="female__title pages-title">Женщины</h1>
@@ -74,7 +71,6 @@ function Female() {
                     </ul>
                 </div>
             </section>
-            <Footer />
         </>
     );
 }

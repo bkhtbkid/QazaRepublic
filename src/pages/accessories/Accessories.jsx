@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
 import action from "../../redux/Action";
 import PagesSkeleton from "../../components/skeleton/PagesSkeleton";
 
@@ -9,10 +7,11 @@ function Accessories() {
 
     return (
         <>
-            <Header />
             <section className="accessories">
                 <div className="container">
-                    <h1 className="accessories__title pages-title">Boxes</h1>
+                    <h1 className="accessories__title pages-title">
+                        Аксессуары
+                    </h1>
                     <ul className="accessories__list list-accessories">
                         {items !== undefined ? (
                             items.map((obj, index) => {
@@ -74,7 +73,6 @@ function Accessories() {
                     </ul>
                 </div>
             </section>
-            <Footer />
         </>
     );
 }
