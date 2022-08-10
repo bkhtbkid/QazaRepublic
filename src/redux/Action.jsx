@@ -1,21 +1,27 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { useContext } from "react";
+import { SearchContext } from "../App";
 
 const Action = () => {
     const [items, setItems] = useState([]);
+    const { searchValue } = useContext(SearchContext);
     const [isLoading, setIsLoading] = useState(true);
 
-    // Сделать получение данных с сервера
+    const search = searchValue ? `&search=${searchValue}` : "";
 
+    // Сделать получение данных с сервера
     useEffect(() => {
         axios
-            .get("https://62d40ad6cd960e45d4522b59.mockapi.io/QazaqRepublic")
+            .get(
+                `https://62d40ad6cd960e45d4522b59.mockapi.io/QazaqRepublic?${search}`
+            )
             .then((response) => {
                 setItems(response);
                 setIsLoading(false);
             });
         window.scrollTo(0, 0);
-    }, []);
+    }, [searchValue]);
     return items;
 };
 

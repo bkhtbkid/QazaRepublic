@@ -90,6 +90,14 @@ function Footer() {
                             </li>
                             <li className="list-footer__item">
                                 <Link
+                                    to={"/boxes"}
+                                    className="list-footer__link"
+                                >
+                                    Boxes
+                                </Link>
+                            </li>
+                            <li className="list-footer__item">
+                                <Link
                                     to={"/accessories"}
                                     className="list-footer__link"
                                 >

@@ -4,6 +4,7 @@ import action from "../../redux/Action";
 
 function Latest() {
     const items = action().data;
+
     return (
         <>
             <section className="latest">

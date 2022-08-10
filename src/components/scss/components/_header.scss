@@ -17,6 +17,10 @@
     }
 }
 
+.search {
+    position: relative;
+}
+
 .menu {
     font-weight: 700;
     &__icon {
@@ -117,5 +121,19 @@
             background-color: #444;
             color: #fff;
         }
+    }
+}
+
+.deleteSearch {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 9px;
+    right: 29px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.3s;
+    :hover {
+        opacity: 0.8;
     }
 }
