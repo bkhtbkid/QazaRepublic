@@ -5,12 +5,11 @@
         "title": "Термобутылка 'Botelke'",
         "latest": "",
         "sizes": "500 мл",
-        "price": "5 500",
+        "price": 5500,
         "category": ["accessories"],
         "description": "Модная термо-бутылка с вакуумной изоляцией и удобной крышкой. Материал - нержавеющая сталь (SS304). Матовая покраска. В нее можно налить 500 мл вашего любимого напитка, который останется холодным до 24 часов или горячим в течение 12 часов! Отлично подходит для ежедневного пользования, и поможет Вам оставаться в тонусе при жаркой или холодной погоде.",
         "color": "Черная",
-        "trends": true,
-        "gender": ""
+        "trends": true
     },
     {
         "id": "1",
@@ -18,12 +17,11 @@
         "title": "Бутылка пластиковая 'Botelke'",
         "latest": "",
         "sizes": "500",
-        "price": "1 800",
+        "price": 1800,
         "category": ["accessories"],
         "description": "Бутылка для воды. Обьем — 0.5 литра. Материал - пластик. BPA Free (Не содержит бисфенол)",
         "color": "Прозрачная",
-        "trends": "",
-        "gender": ""
+        "trends": ""
     },
     {
         "id": "2",
@@ -31,13 +29,13 @@
         "title": "Свитшот 'Qazaq Republic'",
         "latest": true,
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "12 000",
-        "category": ["male", "female"],
+        "price": 12000,
+        "category": ["male", "female", "kids"],
         "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
         "color": "Бордовый",
         "trends": true,
-        "gender": ["male", "female", "kids"],
-        "collection": "Мужчины"
+        "gender": ["Мужчины"],
+        "collection": ["Мужчины"]
     },
     {
         "id": "3",
@@ -45,12 +43,12 @@
         "title": "Футболка 'Modern Identity'",
         "latest": true,
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "7 500",
+        "price": 7500,
         "category": ["male", "female", "kids"],
         "description": "Современная национальная айдентика. Состав: 100% хлопок.",
         "color": "Зеленая",
         "trends": "",
-        "gender": ["male", "female", "kids"]
+        "gender": ["Мужчины"]
     },
     {
         "id": "4",
@@ -58,12 +56,11 @@
         "title": "Эко сумка 'Baride zhaqsy bolady'",
         "latest": "",
         "sizes": "36*37",
-        "price": "4 000",
+        "price": 4000,
         "category": ["accessories"],
         "description": "Сегодня человечество усердно заботится об экологии. Слово 'эко' становится мэйн-стримом и применяется ко всему, что имеет хоть какое-то отношение к охране окружающей среды: от глобальных правительственных программ по экологии до неприметных аксессуаров. К примеру, сумок . Да-да, выбрав правильную сумку, можно сделать свой вклад в спасение Земли может каждый.",
         "color": "Желтая",
-        "trends": true,
-        "gender": ""
+        "trends": true
     },
     {
         "id": "5",
@@ -71,12 +68,12 @@
         "title": "Футболка 'Bari Jaqsy Bolady'",
         "latest": true,
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "5 395",
+        "price": 5395,
         "category": ["male", "kids"],
         "description": "Современная национальная айдентика. Состав: 100% хлопок.",
         "color": "Белая",
         "trends": true,
-        "gender": ["Male"]
+        "gender": ["Женщины"]
     },
     {
         "id": "6",
@@ -84,25 +81,24 @@
         "title": "Футболка детская 'BORN QAZAQ'",
         "latest": true,
         "sizes": "",
-        "price": "7 000",
+        "price": 7000,
         "category": ["kids", "female"],
         "description": "Современная национальная айдентика. Состав: 100% хлопок.",
         "color": "Черная",
         "trends": "",
-        "gender": ["male", "female", "kids"]
+        "gender": ["Женщины"]
     },
     {
         "id": "7",
         "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/f/i/file_20_1.jpeg",
         "title": "Футболка 'Modern Identity'",
-        "latest": true,
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "7 500",
+        "price": 7500,
         "category": ["male", "female", "kids"],
         "description": "Современная национальная айдентика. Состав: 100% хлопок.",
         "color": "Зеленая",
         "trends": "",
-        "gender": ["Female"]
+        "gender": ["Женщины"]
     },
     {
         "id": "8",
@@ -110,25 +106,24 @@
         "title": "Футболка 'Modern Identity'",
         "latest": "",
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "7 500",
+        "price": 7500,
         "category": ["male", "female", "kids"],
         "description": "Современная национальная айдентика. Состав: 100% хлопок.",
         "color": "Серая",
         "trends": "",
-        "gender": ""
+        "gender": ["Дети"]
     },
     {
         "id": "9",
         "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/f/i/file_16_3.jpeg",
         "title": "Свитшот 'Modern Identity'",
-        "latest": true,
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "12 000",
+        "price": 12000,
         "category": ["male", "kids"],
         "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
         "color": "Бордовый",
         "trends": true,
-        "gender": ""
+        "gender": ["Мужчины"]
     },
     {
         "id": "10",
@@ -136,12 +131,12 @@
         "title": "Свитшот 'Modern Identity'",
         "latest": true,
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "13 000",
+        "price": 13000,
         "category": ["male"],
         "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
         "color": "Бежевый",
         "trends": "",
-        "gender": ""
+        "gender": ["Мужчины"]
     },
     {
         "id": "11",
@@ -149,13 +144,13 @@
         "title": "Свитшот 'Modern Identity-We are QR'",
         "latest": "",
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "12 000",
+        "price": 12000,
         "category": ["male", "female", "kids"],
         "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
         "color": "Серый",
         "trends": true,
-        "gender": "",
-        "collection": "Женщины"
+        "gender": ["Женщины"],
+        "collection": ["Женщины"]
     },
     {
         "id": "12",
@@ -163,12 +158,12 @@
         "title": "Свитшот 'Modern Identity'",
         "latest": "",
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "12 000",
+        "price": 12000,
         "category": ["female", "kids"],
         "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
         "color": "Серый",
         "trends": "",
-        "gender": ""
+        "gender": ["Женщины"]
     },
     {
         "id": "13",
@@ -176,12 +171,12 @@
         "title": "Свитшот 'Bari Jaqsy Bolady'",
         "latest": true,
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "12 000",
+        "price": 12000,
         "category": ["male", "female"],
         "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
         "color": "Бежевый",
         "trends": true,
-        "gender": ""
+        "gender": ["Мужчины"]
     },
     {
         "id": "14",
@@ -189,12 +184,12 @@
         "title": "Футболка 'Baride Jaqsy Bolady'",
         "latest": "",
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "4 950",
+        "price": 4950,
         "category": ["female"],
         "description": "Современная национальная айдентика. Состав: 100% хлопок.",
         "color": "Желтая",
         "trends": "",
-        "gender": ["female"]
+        "gender": ["Женщины"]
     },
     {
         "id": "15",
@@ -202,12 +197,11 @@
         "title": "Термобутылка 'Botelke'",
         "latest": true,
         "sizes": "500 мл",
-        "price": "4 500",
+        "price": 4500,
         "category": ["accessories"],
         "description": "Модная термо-бутылка с вакуумной изоляцией и удобной крышкой. Материал - нержавеющая сталь (SS304). Матовая покраска. В нее можно налить 500 мл вашего любимого напитка, который останется холодным до 24 часов или горячим в течение 12 часов! Отлично подходит для ежедневного пользования, и поможет Вам оставаться в тонусе при жаркой или холодной погоде.",
         "color": "Бирюзовая",
-        "trends": true,
-        "gender": ""
+        "trends": true
     },
     {
         "id": "16",
@@ -215,12 +209,11 @@
         "title": "GIFTBOX №1.",
         "latest": true,
         "sizes": "",
-        "price": "19 000",
-        "category": ["accessories"],
+        "price": 19000,
+        "category": [],
         "description": "Футболку наденет, с кружки попьет, botelke с собой в горы возьмет.",
         "color": "",
         "trends": "",
-        "gender": "",
         "box": true
     },
     {
@@ -229,12 +222,11 @@
         "title": "GIFTBOX №2.",
         "latest": true,
         "sizes": "",
-        "price": "19 000",
-        "category": ["accessories"],
+        "price": 19000,
+        "category": [],
         "description": "Футболку наденет, с кружки попьет, botelke с собой в горы возьмет.",
         "color": "",
         "trends": "",
-        "gender": "",
         "box": true
     },
     {
@@ -243,12 +235,11 @@
         "title": "GIFTBOX №3.",
         "latest": true,
         "sizes": "",
-        "price": "9 000",
-        "category": ["accessories"],
+        "price": 9000,
+        "category": [],
         "description": "Сегодня человечество усердно заботится об экологии. Слово 'эко' становится мэйн-стримом и применяется ко всему, что имеет хоть какое-то отношение к охране окружающей среды: от глобальных правительственных программ по экологии до неприметных аксессуаров. К примеру, сумок . Да-да, выбрав правильную сумку, можно сделать свой вклад в спасение Земли может каждый.",
         "color": "Черная",
         "trends": "",
-        "gender": "",
         "box": true
     },
     {
@@ -257,12 +248,11 @@
         "title": "Кружка 'Astana red'",
         "latest": "",
         "sizes": "400 мл",
-        "price": "4 500",
+        "price": 4500,
         "category": ["accessories"],
         "description": "Оригинальный Новогодний подарок. Эмалированная кружка 0.4 литра. Созданные легендарным заводом на станках времен второй мировой войны. Термостойкие ручки для горячих напитков.",
         "color": "",
-        "trends": "",
-        "gender": ""
+        "trends": ""
     },
     {
         "id": "20",
@@ -270,12 +260,123 @@
         "title": "Футболка детская 'Qazaq Republic'",
         "latest": "",
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-        "price": "7 000",
+        "price": 7000,
         "category": ["kids"],
         "description": "Сейчас футболка уже перестала быть обычным предметом гардероба. Ее в качестве сувенира можно подарить коллеге по работе, имениннику, дорогому человеку по любому поводу, будь это профессиональный праздник, день рождения или другой особенный случай.",
         "color": "Красная",
         "trends": true,
-        "gender": ["kids"],
+        "gender": ["Дети"],
         "collection": "Дети"
+    },
+    {
+        "id": "21",
+        "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/f/i/file_18_3.jpeg",
+        "title": "Свитшот 'Qazaq Republic'",
+        "latest": true,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "price": 12000,
+        "category": ["male", "female"],
+        "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
+        "color": "Бордовый",
+        "gender": ["Женщины"]
+    },
+    {
+        "id": "22",
+        "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/f/i/file_18_3.jpeg",
+        "title": "Свитшот 'Qazaq Republic'",
+        "latest": true,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "price": 12000,
+        "category": ["male", "female"],
+        "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
+        "color": "Бордовый",
+        "gender": ["Дети"]
+    },
+    {
+        "id": "23",
+        "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/f/i/file_20_1.jpeg",
+        "title": "Футболка 'Modern Identity'",
+        "latest": true,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "price": 7500,
+        "category": ["male", "female", "kids"],
+        "description": "Современная национальная айдентика. Состав: 100% хлопок.",
+        "color": "Зеленая",
+        "trends": "",
+        "gender": ["Женщины"]
+    },
+    {
+        "id": "24",
+        "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/f/i/file_20_1.jpeg",
+        "title": "Футболка 'Modern Identity'",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "price": 7500,
+        "category": ["male", "female", "kids"],
+        "description": "Современная национальная айдентика. Состав: 100% хлопок.",
+        "color": "Зеленая",
+        "trends": "",
+        "gender": ["Дети"]
+    },
+    {
+        "id": "25",
+        "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/8d1771fdd19ec2393e47701ba45e606d/f/i/file_5.jpeg",
+        "title": "Футболка детская 'BORN QAZAQ'",
+        "latest": true,
+        "sizes": "",
+        "price": 7000,
+        "category": ["kids", "female"],
+        "description": "Современная национальная айдентика. Состав: 100% хлопок.",
+        "color": "Черная",
+        "trends": "",
+        "gender": ["Мужчины"]
+    },
+    {
+        "id": "26",
+        "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/8d1771fdd19ec2393e47701ba45e606d/f/i/file_5.jpeg",
+        "title": "Футболка детская 'BORN QAZAQ'",
+        "sizes": "",
+        "price": 7000,
+        "category": ["kids", "female"],
+        "description": "Современная национальная айдентика. Состав: 100% хлопок.",
+        "color": "Черная",
+        "trends": "",
+        "gender": ["Дети"]
+    },
+    {
+        "id": "27",
+        "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/f/i/file_16_3.jpeg",
+        "title": "Свитшот 'Modern Identity'",
+        "latest": true,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "price": 12000,
+        "category": ["male", "kids"],
+        "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
+        "color": "Бордовый",
+        "gender": ["Дети"]
+    },
+    {
+        "id": "28",
+        "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/f/i/file_10_3.jpeg",
+        "title": "Свитшот 'Modern Identity'",
+        "latest": "",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "price": 12000,
+        "category": ["female", "kids"],
+        "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
+        "color": "Серый",
+        "trends": "",
+        "gender": ["Дети"]
+    },
+    {
+        "id": "29",
+        "imageUrl": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/f/i/file_8_2.jpeg",
+        "title": "Свитшот 'Bari Jaqsy Bolady'",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "price": 12000,
+        "category": ["male", "female"],
+        "description": "Состав: 86% хлопок, 14% полиэстер Свитшот – это одна из разновидностей свитера, только скроен он как толстовка. Название этого элемента одежды происходит от сочетания 2-х английских слов «sweater» (свитер) и «shirt» (рубашка). Удобный и оригинальный свитшот добавит вашему образу неповторимость.",
+        "color": "Бежевый",
+        "trends": true,
+        "gender": ["Женщины"]
     }
 ]

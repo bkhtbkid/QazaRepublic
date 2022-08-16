@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import { useContext } from "react";
 import { SearchContext } from "../App";
@@ -10,14 +10,13 @@ const Action = () => {
 
     const search = searchValue ? `&search=${searchValue}` : "";
 
-    // Сделать получение данных с сервера
     useEffect(() => {
         axios
             .get(
                 `https://62d40ad6cd960e45d4522b59.mockapi.io/QazaqRepublic?${search}`
             )
             .then((response) => {
-                setItems(response);
+                setItems(response.data);
                 setIsLoading(false);
             });
         window.scrollTo(0, 0);

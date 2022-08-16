@@ -22,7 +22,6 @@ function Menu(props) {
 
     return (
         <div className="header__menu menu menu-header">
-            <div className="menu-header__help--media">Помощь</div>
             <button
                 onClick={props.toggle}
                 type="button"

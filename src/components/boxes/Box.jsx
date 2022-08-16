@@ -1,15 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import action from "../../redux/Action";
 
-function Box(params) {
-    const items = params.items.items;
+function Box() {
+    const items = action();
     return (
         <>
             {items.map((value, index) => {
                 return (
                     value.box === true && (
-                        <Link to={""} className="boxes__link" key={index}>
-                            {/* Сделать линки */}
+                        <Link
+                            to={`boxes/${index}`}
+                            className="boxes__link"
+                            key={index}
+                        >
                             <img src={value.imageUrl} alt="img" />
                         </Link>
                     )

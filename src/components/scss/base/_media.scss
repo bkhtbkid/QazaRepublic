@@ -82,9 +82,9 @@
                 }
             }
         }
-        &-block {
-            width: 300px;
-        }
+        // &-block {
+        //     width: 300px;
+        // }
     }
     .info-block {
         &__title {
@@ -139,9 +139,9 @@
         }
     }
     .item {
-        &-block {
-            width: 250px;
-        }
+        // &-block {
+        //     width: 250px;
+        // }
     }
     .info-block {
         &__title {
@@ -161,6 +161,7 @@
         }
     }
 }
+
 @media (max-width: 590px) {
     .item {
         &-collection {
@@ -174,13 +175,25 @@
                 font-size: 12px;
             }
         }
+        &-block {
+            display: block;
+            text-align: center;
+            & > img {
+                margin: 0 auto;
+            }
+        }
+    }
+    .info-block {
+        &__wrapper {
+            margin: 0 auto;
+        }
     }
     .trends-block__title {
         text-align: center;
     }
     .buttonIcon {
-        right: 16px !important;
-        top: 6px !important;
+        right: 0px !important;
+        top: 7px !important;
     }
     .categories__title {
         font-size: 16px;
@@ -230,5 +243,17 @@
         &__text {
             margin-bottom: 20px;
         }
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        padding: 0 5px;
+    }
+    .menu__body--active {
+        width: 101%;
+    }
+    .footer__rights {
+        font-size: 14px;
     }
 }

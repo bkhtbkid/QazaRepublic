@@ -5,8 +5,21 @@
     max-width: 800px;
     width: 100%;
     margin: 0 auto 30px;
+    padding: 10px 0;
     align-items: center;
     &__title {
         display: flex;
+    }
+}
+.content-cart {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 470px) {
+    .topCart,
+    .cartBot {
+        display: block;
+        text-align: center;
     }
 }

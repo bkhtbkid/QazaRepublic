@@ -7,6 +7,7 @@
 @import "./components/footer.scss";
 @import "./components/pages.module.scss";
 @import "../../pages/cart/cart.module.scss";
+@import "./components/item.module.scss";
 
 .container {
     max-width: 1530px;
@@ -30,7 +31,9 @@
     white-space: nowrap;
     scrollbar-width: thin;
     scrollbar-color: #737b7d transparent;
+    padding-bottom: 20px;
     &::-webkit-scrollbar {
+        margin-top: 10px;
         height: 5px;
         &-thumb {
             border-radius: 10px;

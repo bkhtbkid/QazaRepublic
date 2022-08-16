@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import action from "../../redux/Action";
 
-function CategoriesBlock(params) {
-    const gender = ["/male", "/female", "/kids"]; // Доделать здесь
-    const items = params.items.items;
+function CategoriesBlock() {
+    const items = action();
 
     return (
         <>

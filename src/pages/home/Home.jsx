@@ -2,28 +2,28 @@ import React from "react";
 import Boxes from "../../components/boxes/Boxes";
 import Categories from "../../components/categories/Categories";
 import Collection from "../../components/collection/Collection";
-import TrendsBlock from "../../components/trendsBlock/TrendsBlock";
+import Trends from "../../components/trends/Trends";
 import action from "../../redux/Action";
 
 function Home() {
-    const items = action().data;
+    const items = action();
 
     return (
         <>
             {items && (
-                <div className="App">
+                <div className="app">
                     <section className="collection">
                         <Collection />
                     </section>
                     <div className="container">
                         <section className="trends-block">
-                            <TrendsBlock items={items} />
+                            <Trends />
                         </section>
                         <section className="categories">
-                            <Categories items={items} />
+                            <Categories />
                         </section>
                         <section className="boxes">
-                            <Boxes items={items} />
+                            <Boxes />
                         </section>
                     </div>
                 </div>

@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import cartSvg from "../../assets/icons/cart.svg";
 import mainLogo from "../../assets/logo/logo.png";
-
+import { useSelector } from "react-redux";
 import Menu from "./Menu";
 import Search from "./Search";
 
 function Header() {
+    const { orders } = useSelector((state) => state.cart);
     const [menuBody, setMenuBody] = useState(false);
 
     const toggle = () => setMenuBody(!menuBody);
@@ -20,7 +21,6 @@ function Header() {
                     </Link>
                     <Menu toggle={toggle} menuBody={menuBody} />
                     <div className="menu-header__block">
-                        <div className="menu-header__help">Помощь</div>
                         <div className="menu-header__item">
                             <Search />
                             <Link to={"/cart"}>
@@ -32,6 +32,9 @@ function Header() {
                                         height: "20px",
                                     }}
                                 />
+                                <span className="cart-count">
+                                    {orders.length}
+                                </span>
                             </Link>
                         </div>
                     </div>

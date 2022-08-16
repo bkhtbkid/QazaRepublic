@@ -1,0 +1,50 @@
+.item {
+    max-width: 900px;
+    margin: 0 auto 30px;
+    padding: 0 10px;
+}
+.itemTopWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.itemImage {
+    & > img {
+        max-width: 500px;
+        width: 100%;
+    }
+}
+.blockItem {
+    & > *:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+.paragraph {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+@media (max-width: 590px) {
+    .itemTopWrapper {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .itemImage {
+        & > img {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+    .blockItem {
+        & > *:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+    .paragraph {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+}

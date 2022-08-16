@@ -14,7 +14,10 @@ function Footer() {
                             </Link>
                         </div>
                         <div className="item-footer__media footer-media">
-                            <a href="" className="footer-media__facebook">
+                            <a
+                                href="https://www.facebook.com/qazaq.republic.brand/"
+                                className="footer-media__facebook"
+                            >
                                 <svg
                                     width="28"
                                     height="28"
@@ -27,7 +30,10 @@ function Footer() {
                                     />
                                 </svg>
                             </a>
-                            <a href="" className="footer-media__instagram">
+                            <a
+                                href="https://www.instagram.com/qazaq.republic/"
+                                className="footer-media__instagram"
+                            >
                                 <svg
                                     version="1.1"
                                     width="24"

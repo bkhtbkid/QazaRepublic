@@ -1,15 +1,15 @@
 import React from "react";
-import ItemBlock from "../itemBlock/ItemBlock";
+import TrendBlocks from "./TrendBlocks";
 
-const TrendsBlock = (params) => {
+const Trends = () => {
     return (
         <>
             <h2 className="trends-block__title">Сейчас в тренде</h2>
             <div className="trends-block__items items-block">
-                <ItemBlock items={params} />
+                <TrendBlocks />
             </div>
         </>
     );
 };
 
-export default TrendsBlock;
+export default Trends;

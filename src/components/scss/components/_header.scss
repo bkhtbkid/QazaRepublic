@@ -76,9 +76,6 @@
         margin: 0px 5px 0px;
     }
     &-header {
-        &__block {
-            margin-top: -22px;
-        }
         &__help {
             font-size: 12px;
             margin-bottom: 5px;
@@ -136,4 +133,10 @@
     :hover {
         opacity: 0.8;
     }
+}
+
+.cart-count {
+    position: absolute;
+    font-size: 14px;
+    top: -4px;
 }
