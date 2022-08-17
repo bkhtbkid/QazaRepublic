@@ -24,7 +24,7 @@ function App() {
             <SearchContext.Provider value={{ searchValue, setSearchValue }}>
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/QazaqRepublic" element={<Home />} />
                     <Route path="/latest" element={<Latest />} />
                     <Route path="/male" element={<Male />} />
                     <Route path="/female" element={<Female />} />

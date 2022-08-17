@@ -25,7 +25,7 @@ function Header() {
         <header className="header">
             <div className="container">
                 <div className="header__wrapper">
-                    <Link to={"/"} className="header__logo">
+                    <Link to={"/QazaqRepublic"} className="header__logo">
                         <img src={mainLogo} alt="Logo" />
                     </Link>
                     <Menu toggle={toggle} menuBody={menuBody} />

@@ -23,7 +23,7 @@ function Item() {
                 setOrder(data);
             } catch (error) {
                 alert(error);
-                navigate("/");
+                navigate("/QazaqRepublic");
             }
         }
         getData();

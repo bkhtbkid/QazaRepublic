@@ -9,7 +9,7 @@ function Footer() {
                 <div className="footer__wrapper">
                     <div className="footer__item item-footer">
                         <div className="item-footer__logo">
-                            <Link to={"/"}>
+                            <Link to={"/QazaqRepublic"}>
                                 <img src={footerLogo} alt="" />
                             </Link>
                         </div>
@@ -57,6 +57,15 @@ function Footer() {
                                         fill="none"
                                     />
                                 </svg>
+                            </a>
+                        </div>
+                        <div className="github">
+                            <a
+                                target="blank"
+                                href="https://github.com/bkhtbkid/QazaqRepublic"
+                                style={{ color: "#777" }}
+                            >
+                                Github
                             </a>
                         </div>
                     </div>
