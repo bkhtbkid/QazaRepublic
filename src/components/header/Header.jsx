@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import cartSvg from "../../assets/icons/cart.svg";
 import mainLogo from "../../assets/logo/logo.png";
@@ -9,8 +9,17 @@ import Search from "./Search";
 function Header() {
     const { orders } = useSelector((state) => state.cart);
     const [menuBody, setMenuBody] = useState(false);
+    const isMounted = useRef(false);
 
     const toggle = () => setMenuBody(!menuBody);
+
+    useEffect(() => {
+        if (isMounted.current) {
+            const json = JSON.stringify(orders);
+            localStorage.setItem("cart", json);
+        }
+        isMounted.current = true;
+    }, [orders]);
 
     return (
         <header className="header">

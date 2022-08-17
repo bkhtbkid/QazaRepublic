@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import axios from "axios";
-import { useContext } from "react";
 import { SearchContext } from "../App";
 
 const Action = () => {

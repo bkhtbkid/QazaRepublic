@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect, useRef } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import action from "../../redux/Action";
 import classes from "../../components/scss/components/item.module.scss";
 import { addItem } from "../../redux/slices/cartSlice";
@@ -12,6 +12,7 @@ function Item() {
     const [order, setOrder] = useState();
     const { id } = useParams();
     const some = useRef();
+    const navigate = useNavigate();
 
     useEffect(() => {
         async function getData() {
@@ -22,6 +23,7 @@ function Item() {
                 setOrder(data);
             } catch (error) {
                 alert(error);
+                navigate("/");
             }
         }
         getData();
