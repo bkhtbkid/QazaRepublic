@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/QazaqRepublic/static/css/main.4d47fb33.css",
-    "main.js": "/QazaqRepublic/static/js/main.ab786510.js",
+    "main.js": "/QazaqRepublic/static/js/main.44dcbe76.js",
     "static/media/cart.svg": "/QazaqRepublic/static/media/cart.b886a03299309244d51f82eebf9cb4f6.svg",
     "index.html": "/QazaqRepublic/index.html",
     "main.4d47fb33.css.map": "/QazaqRepublic/static/css/main.4d47fb33.css.map",
-    "main.ab786510.js.map": "/QazaqRepublic/static/js/main.ab786510.js.map"
+    "main.44dcbe76.js.map": "/QazaqRepublic/static/js/main.44dcbe76.js.map"
   },
   "entrypoints": [
     "static/css/main.4d47fb33.css",
-    "static/js/main.ab786510.js"
+    "static/js/main.44dcbe76.js"
   ]
 }
