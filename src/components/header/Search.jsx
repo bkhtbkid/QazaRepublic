@@ -14,7 +14,7 @@ function Search() {
 
     return (
         <div className="search">
-            {location.pathname !== "/" && (
+            {location.pathname !== "/QazaqRepublic" && (
                 <svg
                     className="menu__search-icon"
                     viewBox="0 0 64 64"
